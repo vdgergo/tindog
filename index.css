@@ -1,0 +1,156 @@
+
+*  {
+  box-sizing: border-box;
+}
+
+/* .profile,.description-wrapper{
+  border: 1px solid red;
+} */
+
+
+/* -10__ DISPLAY PROPERTIES ----  */
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.profile{
+  display: flex;
+  position: relative;
+}
+.description-wrapper{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  align-items: flex-end;
+}
+.input-wrapper{
+  display: flex;
+  justify-content: center;
+  gap:1.5rem;
+}
+
+/* -20__ DIMENSIONS ---- */
+body{
+  max-width: 600px;
+}
+.header-icon{
+  width: auto;
+  height: 2.125rem
+}
+.header-logo{
+  width: auto;
+  height: 2.625rem
+}
+
+.profile{
+  height: 0;
+}
+
+.description-wrapper{
+  width: 100%;
+  height: 100%;
+}
+.input-btn{
+  height: 5.75rem;
+  width: 5.75rem;  
+}
+
+/* -30__ BOXMODELL_STUFF ---- */
+body{
+  margin: auto;
+  padding: 0 8px;
+}
+.header{
+  padding: 20px 18px;
+}
+
+.profile{
+  padding-top: 140.73%;
+  border-radius:15px;
+  overflow: hidden;
+}
+
+.profile__name{
+  margin: 0px 20px 8px;
+}
+.profile__bio{
+  margin: 0px 0px 16px;
+}
+.input-wrapper{
+  padding: 24px 0px;
+}
+.input-btn{
+  border-radius: 50%;
+  border: none;
+}
+/* -40__ COLORS & BACKGROUNDS ---- */
+body{
+  background-color: #F6F7FB;
+}
+.profile{
+  background-image: url(images/dog-teddy.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.profile__bio{
+  color: #B7B7B7;
+}
+.profile__name, .profile__age{
+  color: #F8F8F8;
+}
+.input-btn{
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0px 10px 20px #E9E9EA;
+}
+.input-btn__decline:hover{
+  background-color: #FFE7EF;
+  box-shadow: 0px 10px 20px #EDD9DF;
+}
+.input-btn__accept:hover{
+  background-color: #DBFFF4;
+  box-shadow: 0px 10px 20px #CCF1E6;
+}
+
+/* -50__ TYPOGRAPHY ---- */
+
+.body {
+  font-family: 'Poppins', sans-serif;
+}
+.input-btn{
+  font-size: 1.625rem;
+}
+
+.profile__name{
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.profile__age{
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+.profile__bio{
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;;
+}
+
+/* -60__ DECORATIONS ----  */
+
+.profile__badge{
+  width: 44%;
+  height: 16%;
+  transform: rotate(-30deg);
+  position: absolute;
+  top:40px;
+  left: 15px;
+}
+/* -70__ MANIPULATION ----  */
+
+
+
