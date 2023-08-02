@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-/* .profile,.description-wrapper{
+/* .dog,.description-wrapper{
   border: 1px solid red;
 } */
 
@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-between;
 }
-.profile{
+.dog{
   display: flex;
   position: relative;
 }
@@ -43,7 +43,7 @@ body{
   height: 2.625rem
 }
 
-.profile{
+.dog{
   height: 0;
 }
 
@@ -65,16 +65,16 @@ body{
   padding: 20px 18px;
 }
 
-.profile{
+.dog{
   padding-top: 140.73%;
   border-radius:15px;
   overflow: hidden;
 }
 
-.profile__name{
+.dog__name{
   margin: 0px 20px 8px;
 }
-.profile__bio{
+.dog__bio{
   margin: 0px 0px 16px;
 }
 .input-wrapper{
@@ -88,17 +88,17 @@ body{
 body{
   background-color: #F6F7FB;
 }
-.profile{
+.dog{
   background-image: url(images/dog-teddy.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.profile__bio{
+.dog__bio{
   color: #B7B7B7;
 }
-.profile__name, .profile__age{
+.dog__name, .dog__age{
   color: #F8F8F8;
 }
 .input-btn{
@@ -123,18 +123,18 @@ body{
   font-size: 1.625rem;
 }
 
-.profile__name{
+.dog__name{
   font-size: 2rem;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
 }
 
-.profile__age{
+.dog__age{
   font-size: 2rem;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
 }
-.profile__bio{
+.dog__bio{
   font-size: 1.5rem;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;;
@@ -142,7 +142,7 @@ body{
 
 /* -60__ DECORATIONS ----  */
 
-.profile__badge{
+.dog__badge{
   width: 44%;
   height: 16%;
   transform: rotate(-30deg);
